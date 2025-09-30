@@ -29,7 +29,7 @@ const Tributes = () => {
               <h3 className="text-xl font-semibold mb-3 text-accent">
                 From {tribute.from}
               </h3>
-              <p className="text-muted-foreground italic">
+              <p className="text-foreground italic">
                 {tribute.message}
               </p>
             </div>

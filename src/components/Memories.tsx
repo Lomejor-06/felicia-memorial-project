@@ -27,7 +27,7 @@ const Memories = () => {
               <h3 className="text-2xl font-semibold mb-4 text-accent">
                 "{memory.title}"
               </h3>
-              <p className="text-lg leading-relaxed text-muted-foreground">
+              <p className="text-lg leading-relaxed text-foreground">
                 {memory.content}
               </p>
             </div>

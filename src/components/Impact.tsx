@@ -31,7 +31,7 @@ const Impact = () => {
               <h3 className="text-2xl font-semibold mb-4 text-foreground">
                 {area.title}
               </h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-foreground leading-relaxed">
                 {area.description}
               </p>
             </div>

@@ -40,17 +40,17 @@ const ServiceDetails = () => {
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <Calendar className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
-                  <span className="text-muted-foreground">{event.date}</span>
+                  <span className="text-foreground">{event.date}</span>
                 </div>
                 
                 <div className="flex items-start gap-3">
                   <Clock className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
-                  <span className="text-muted-foreground">{event.time}</span>
+                  <span className="text-foreground">{event.time}</span>
                 </div>
                 
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
-                  <span className="text-muted-foreground text-sm leading-relaxed">
+                  <span className="text-foreground text-sm leading-relaxed">
                     {event.venue}
                   </span>
                 </div>

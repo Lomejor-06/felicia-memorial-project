@@ -8,7 +8,7 @@ const FinalWords = () => {
     },
     {
       title: "Keeping Memories Alive", 
-      content: "We invite you to continue sharing stories that keep Mom's spirit and teachings present in our lives."
+      content: "We invite you to continue [sharing](https://docs.google.com/forms/d/e/1FAIpQLSe6YFuc7aoWAjHWkyPiuIzGSGzB_f37UTYJ1vmNBN2S02aJug/viewform) stories that keep Mom's spirit and teachings present in our lives."
     },
     {
       title: "Her Everlasting Love",
@@ -33,7 +33,7 @@ const FinalWords = () => {
               <h3 className="text-2xl font-semibold mb-4 text-accent">
                 {section.title}
               </h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-foreground leading-relaxed">
                 {section.content}
                 {section.title === "Keeping Memories Alive" && (
                   <Button 
