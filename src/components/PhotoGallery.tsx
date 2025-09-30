@@ -7,8 +7,8 @@ const PhotoGallery = () => {
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-          <div className="rounded-2xl overflow-hidden shadow-xl">
-            <div className="relative w-full aspect-[3/4] md:aspect-[4/5]">
+          <div className="rounded-2xl overflow-hidden shadow-xl max-w-sm mx-auto">
+            <div className="relative w-full aspect-[3/4]">
               <img
                 src="/Wedding Anniversary Image.avif"
                 alt="Wedding Anniversary Celebration"
@@ -16,8 +16,8 @@ const PhotoGallery = () => {
               />
             </div>
           </div>
-          <div className="rounded-2xl overflow-hidden shadow-xl">
-            <div className="relative w-full aspect-[3/4] md:aspect-[4/5]">
+          <div className="rounded-2xl overflow-hidden shadow-xl max-w-sm mx-auto">
+            <div className="relative w-full aspect-[3/4]">
               <img
                 src="/Family Portrait.avif" 
                 alt="Family Portrait"
