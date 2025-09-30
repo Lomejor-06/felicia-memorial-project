@@ -6,13 +6,13 @@ const PhotoGallery = () => {
           Photo Gallery
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 justify-center">
           <div className="rounded-2xl overflow-hidden shadow-xl max-w-sm mx-auto">
             <div className="relative w-full aspect-[3/4]">
               <img
                 src="/Wedding Anniversary Image.avif"
                 alt="Wedding Anniversary Celebration"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>
@@ -21,7 +21,7 @@ const PhotoGallery = () => {
               <img
                 src="/Family Portrait.avif" 
                 alt="Family Portrait"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>
