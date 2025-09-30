@@ -9,20 +9,20 @@ const FinalWords = () => {
     {
       title: "Keeping Memories Alive", 
       content: (
-    <p>
-      We invite you to continue{" "}
-      <a
-        href="https://example.com"
-        className="text-blue-600 underline hover:text-blue-800"
+      <p>
+        We invite you to continue{" "}
+        <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSe6YFuc7aoWAjHWkyPiuIzGSGzB_f37UTYJ1vmNBN2S02aJug/viewform"
+        className="text-yellow-600 underline hover:text-orange-800"
         target="_blank"
         rel="noopener noreferrer"
-      >
+        >
         sharing
-      </a>{" "}
-      stories that keep Mom's spirit and teachings present in our lives.
-    </p>
-  ),
-}
+        </a>{" "}
+        stories that keep Mom's spirit and teachings present in our lives.
+      </p>
+    ),
+    },
     {
       title: "Her Everlasting Love",
       content: "Though she is no longer physically with us, Mom's love continues to guide and sustain us through each day."
