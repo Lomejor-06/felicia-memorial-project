@@ -12,7 +12,7 @@ const PhotoGallery = () => {
               <img
                 src="/Wedding Anniversary Image.avif"
                 alt="Wedding Anniversary Celebration"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="w-full h-[400px] object-contain rounded-2xl shadow-xl"
               />
             </div>
           </div>
@@ -21,7 +21,7 @@ const PhotoGallery = () => {
               <img
                 src="/Family Portrait.avif" 
                 alt="Family Portrait"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="w-full h-[400px] object-contain rounded-2xl shadow-xl"
               />
             </div>
           </div>
