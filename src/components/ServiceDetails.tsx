@@ -26,7 +26,7 @@ const ServiceDetails = () => {
   return (
     <section id="service-details" className="py-16 px-4 bg-background">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-light text-center mb-16 text-foreground">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground underline">
           Celebration of Life Details
         </h2>
         
@@ -60,7 +60,7 @@ const ServiceDetails = () => {
         </div>
         
         <div className="bg-card/20 backdrop-blur-sm rounded-2xl p-8 border border-muted/20">
-          <h3 className="text-2xl font-semibold mb-8 text-center text-foreground">
+          <h3 className="text-2xl font-bold mb-8 text-center text-foreground underline">
             Virtual Attendance
           </h3>
           
