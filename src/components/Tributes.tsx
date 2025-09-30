@@ -19,7 +19,7 @@ const Tributes = () => {
   return (
     <section className="py-16 px-4 bg-background">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-light text-center mb-16 text-foreground">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground underline">
           Tributes and Condolences
         </h2>
         
