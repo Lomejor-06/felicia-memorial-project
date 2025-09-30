@@ -8,8 +8,21 @@ const FinalWords = () => {
     },
     {
       title: "Keeping Memories Alive", 
-      content: "We invite you to continue [sharing](https://docs.google.com/forms/d/e/1FAIpQLSe6YFuc7aoWAjHWkyPiuIzGSGzB_f37UTYJ1vmNBN2S02aJug/viewform) stories that keep Mom's spirit and teachings present in our lives."
-    },
+      content: (
+    <p>
+      We invite you to continue{" "}
+      <a
+        href="https://example.com"
+        className="text-blue-600 underline hover:text-blue-800"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        sharing
+      </a>{" "}
+      stories that keep Mom's spirit and teachings present in our lives.
+    </p>
+  ),
+}
     {
       title: "Her Everlasting Love",
       content: "Though she is no longer physically with us, Mom's love continues to guide and sustain us through each day."
@@ -35,7 +48,7 @@ const FinalWords = () => {
               </h3>
               <p className="text-foreground leading-relaxed">
                 {section.content}
-                {section.title === "Keeping Memories Alive" && (
+                {/* {section.title === "Keeping Memories Alive" && (
                   <Button 
                     variant="link" 
                     className="p-0 h-auto ml-1 text-accent hover:text-accent/80"
@@ -43,7 +56,7 @@ const FinalWords = () => {
                   >
                     sharing
                   </Button>
-                )}
+                )} */}
               </p>
             </div>
           ))}
