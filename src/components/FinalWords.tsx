@@ -50,10 +50,10 @@ const FinalWords = () => {
         </div>
         
         <div className="text-center max-w-4xl mx-auto">
-          <blockquote className="text-2xl md:text-3xl font-light text-accent italic mb-8">
+          <blockquote className="text-2xl md:text-3xl font-semibold text-accent italic mb-8">
             "A life that touches others goes on forever."
           </blockquote>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-lg text-muted-foreground font-semibold">
             Thank you for helping us celebrate the beautiful life and lasting legacy 
             of our beloved Felicia.
           </p>
