@@ -12,7 +12,7 @@ const PhotoGallery = () => {
               <img
                 src="/Wedding Anniversary Image.avif"
                 alt="Wedding Anniversary Celebration"
-                className="w-full max-h-[500px] object-contain mx-auto"
+                className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
           </div>
